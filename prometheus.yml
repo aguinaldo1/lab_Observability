@@ -8,3 +8,6 @@ global:
       - job_name: simple_server
         static_configs:
           - targets: ["localhost:8090"]
+      - job_name: node-exporter
+        static_configs:
+          - targets: ["localhost:9100"]
